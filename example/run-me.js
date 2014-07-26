@@ -1,5 +1,2 @@
-var path = require('path'),
-    fs   = require('fs'),
-		sj =	require('sitejson');	
-		
-		sj.readDirectory();
+var sitejson =	require('sitejson');	
+sitejson.readDirectory();
